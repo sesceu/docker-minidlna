@@ -22,4 +22,4 @@ for VAR in $(env); do
 done
 
 # Start daemon
-exec /usr/sbin/minidlnad -r -d "$@"
+exec /usr/sbin/minidlnad -d "$@"
